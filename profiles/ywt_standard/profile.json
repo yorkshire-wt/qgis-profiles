@@ -1,7 +1,7 @@
 {
     "$schema": "https://raw.githubusercontent.com/qgis-deployment/qgis-deployment-toolbelt-cli/main/docs/schemas/profile/qgis_profile.json",
-    "name": "YWT Standard",
-    "folder_name": "YWT Standard",
+    "name": "ywt_standard",
+    "folder_name": "ywt_standard",
     "description": "",
     "email": "dominic.hinchley@ywt.org.uk",
     "icon": "TDB",
