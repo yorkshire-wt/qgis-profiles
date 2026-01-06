@@ -1,13 +1,13 @@
 {
     "$schema": "https://raw.githubusercontent.com/qgis-deployment/qgis-deployment-toolbelt-cli/main/docs/schemas/profile/qgis_profile.json",
-    "name": "ywt_standard",
+    "name": "Standard",
     "folder_name": "ywt_standard",
-    "description": "",
+    "description": "Testing profile for YWT standard QGIS setup",
     "email": "dominic.hinchley@ywt.org.uk",
-    "icon": "TDB",
+    "icon": "icon.png",
     "qgisMinimumVersion": "",
     "qgisMaximumVersion": "",
-    "version": "1",
+    "version": "1.0.0",
     "plugins": [
         {
             "name": "Geometry Paster",
