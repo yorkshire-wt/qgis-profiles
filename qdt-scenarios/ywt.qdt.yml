@@ -1,0 +1,53 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/qgis-deployment/qgis-deployment-toolbelt-cli/refs/heads/main/docs/schemas/scenario/qdt_scenario.json
+
+metadata:
+  title: "Demonstration scenario of QGIS Deployment Toolbelt"
+  id: qdt-ywt-scenario
+  description: >-
+    Demonstration scenario of QGIS Deployment Toolbelt capabilities.
+
+# Toolbelt settings
+settings:
+  SCENARIO_VALIDATION: true
+
+# Deployment workflow, step by step
+steps:
+  - name: Find installed QGIS
+    uses: qgis-installation-finder
+    with:
+      search_paths:
+        - "%PROGRAMFILES%/QGIS"
+      if_not_found: warning
+
+  - name: Download profiles from remote git repository
+    uses: qprofiles-downloader
+    with:
+      source: https://github.com/yorkshire-wt/qgis-profiles.git
+      protocol: git_remote
+      branch: main
+
+  - name: Set default profile to ywt_standard
+    uses: default-profile-setter
+    with:
+      profile: ywt_standard
+      force_profile_selection_policy: 3
+
+  - name: Set PGSERVICEFILE environment variables
+    uses: manage-env-vars
+    with:
+      - name: PGSERVICEFILE
+        action: "add"
+        scope: "user"
+        value: "M:\\M16_Databases\\16.1 Configs\\.pg_service.conf"
+        value_type: path
+
+  - name: Download plugins
+    uses: qplugins-downloader
+    with:
+      force: false
+      threads: 5
+
+  - name: Synchronize plugins
+    uses: qplugins-synchronizer
+    with:
+      action: create_or_restore
