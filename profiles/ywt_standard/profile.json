@@ -13,85 +13,73 @@
             "name": "Geometry Paster",
             "folder_name": "geometry_paster",
             "official_repository": true,
-            "plugin_id": 1585,
-            "version": "1.3.0"
+            "plugin_id": 1585
         },
         {
             "name": "Group Stats",
             "folder_name": "GroupStats",
             "official_repository": true,
-            "plugin_id": 40,
-            "version": "2.2.7"
+            "plugin_id": 40
         },
         {
             "name": "MAGIC Map Loader",
             "folder_name": "magic_map_loader",
             "official_repository": true,
-            "plugin_id": 2865,
-            "version": "1.2"
+            "plugin_id": 2865
         },
         {
             "name": "PG service parser",
             "folder_name": "pg_service_parser",
             "official_repository": true,
-            "plugin_id": 3348,
-            "version": "0.8.1"
+            "plugin_id": 3348
         },
         {
             "name": "Processing R Provider",
             "folder_name": "processing_r",
             "official_repository": true,
-            "plugin_id": 1611,
-            "version": "4.1.0"
+            "plugin_id": 1611
         },
         {
             "name": "Processing Saga NextGen Provider",
             "folder_name": "processing_saga_nextgen",
             "official_repository": true,
-            "plugin_id": 1666,
-            "version": "1.1.0"
+            "plugin_id": 1666
         },
         {
             "name": "Profile Manager",
             "folder_name": "profile_manager",
             "official_repository": true,
-            "plugin_id": 3547,
-            "version": "0.7.2"
+            "plugin_id": 3547
         },
         {
             "name": "Profile tool",
             "folder_name": "profiletool",
             "official_repository": true,
-            "plugin_id": 87,
-            "version": "4.3.3"
+            "plugin_id": 87
         },
         {
             "name": "QuickMapServices",
             "folder_name": "quick_map_services",
             "official_repository": true,
-            "plugin_id": 663,
-            "version": "1.0.0"
+            "plugin_id": 663
         },
         {
             "name": "QuickPrint",
             "folder_name": "QuickPrint",
             "official_repository": true,
-            "plugin_id": 1242,
-            "version": "3.6.1"
+            "plugin_id": 1242
         },
         {
             "name": "TomBio tools",
             "folder_name": "TomBio",
             "official_repository": true,
-            "plugin_id": 628,
-            "version": "3.4.4"
+            "plugin_id": 628
         },
         {
             "name": "TopoJSON Writer",
             "folder_name": "topojson_writer",
             "official_repository": true,
-            "plugin_id": 2279,
-            "version": "0.1.1"
+            "plugin_id": 2279
         }
     ]
 }
