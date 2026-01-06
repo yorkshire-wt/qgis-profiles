@@ -16,7 +16,7 @@ steps:
     uses: qgis-installation-finder
     with:
       search_paths:
-        - OSGeo4W/bin"
+        - "OSGeo4W/bin"
       if_not_found: warning
 
 #   - name: Download profiles from remote git repository
