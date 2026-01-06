@@ -24,13 +24,6 @@
             "version": "2.2.7"
         },
         {
-            "name": "Lat Lon Tools",
-            "folder_name": "latlontools",
-            "official_repository": true,
-            "plugin_id": 1035,
-            "version": "3.7.4"
-        },
-        {
             "name": "MAGIC Map Loader",
             "folder_name": "magic_map_loader",
             "official_repository": true,
