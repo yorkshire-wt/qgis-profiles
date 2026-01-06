@@ -73,13 +73,6 @@
             "version": "4.3.3"
         },
         {
-            "name": "qgis2web",
-            "folder_name": "qgis2web",
-            "official_repository": true,
-            "plugin_id": 740,
-            "version": "3.30.0"
-        },
-        {
             "name": "QuickMapServices",
             "folder_name": "quick_map_services",
             "official_repository": true,
@@ -92,13 +85,6 @@
             "official_repository": true,
             "plugin_id": 1242,
             "version": "3.6.1"
-        },
-        {
-            "name": "STAC API Browser",
-            "folder_name": "qgis_stac",
-            "official_repository": true,
-            "plugin_id": 2583,
-            "version": "1.1.2"
         },
         {
             "name": "TomBio tools",
