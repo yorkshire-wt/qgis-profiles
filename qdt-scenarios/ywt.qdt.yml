@@ -44,6 +44,11 @@ steps:
         scope: "user"
         value: "M:\\M16_Databases\\16.1 Configs\\.pg_service.conf"
         value_type: path
+      - name: QGIS_GLOBAL_SETTINGS_FILE
+        action: "add"
+        scope: "user"
+        value: "M:\\M15_GIS\\15.1 QGIS\\1.4 Profiles\\qgis_global_settings.ini"
+        value_type: path
 
   - name: Download plugins
     uses: qplugins-downloader
