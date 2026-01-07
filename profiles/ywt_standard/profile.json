@@ -78,13 +78,6 @@
             "official_repository": true,
             "plugin_id": 628,
             "version": "3.4.4"
-        },
-        {
-            "name": "TopoJSON Writer",
-            "folder_name": "topojson_writer",
-            "official_repository": true,
-            "plugin_id": 2279,
-            "version": "0.1.1"
         }
     ]
 }
