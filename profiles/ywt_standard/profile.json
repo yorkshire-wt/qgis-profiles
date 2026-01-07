@@ -71,13 +71,6 @@
             "official_repository": true,
             "plugin_id": 1242,
             "version": "3.6.1"
-        },
-        {
-            "name": "TomBio tools",
-            "folder_name": "TomBio",
-            "official_repository": true,
-            "plugin_id": 628,
-            "version": "3.4.4"
         }
     ]
 }
