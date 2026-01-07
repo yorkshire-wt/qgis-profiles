@@ -30,6 +30,11 @@ steps:
     with:
       sync_mode: overwrite
 
+  - name: Synchronize plugins
+    uses: qplugins-synchronizer
+    with:
+      action: remove
+
   - name: Set default profile to ywt_standard
     uses: default-profile-setter
     with:
@@ -47,7 +52,7 @@ steps:
       - name: QGIS_GLOBAL_SETTINGS_FILE
         action: "add"
         scope: "user"
-        value: "M:\\M15_GIS\\15.1 QGIS\\1.4 Profiles\\qgis_global_settings.ini"
+        value: "M:\\M15_GIS\\15.1 QGIS\\1.7 Settings\\qgis_global_settings.ini"
         value_type: path
 
   - name: Download plugins
@@ -60,3 +65,4 @@ steps:
     uses: qplugins-synchronizer
     with:
       action: create_or_restore
+      profile_ref: downloaded
