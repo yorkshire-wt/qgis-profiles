@@ -52,7 +52,7 @@ steps:
       - name: QGIS_GLOBAL_SETTINGS_FILE
         action: "add"
         scope: "user"
-        value: "M:\\M15_GIS\\15.1 QGIS\\1.7 Settings\\qgis_global_settings.ini"
+        value: "C:\\OSGeo4W\\apps\\qgis-ltr\\resources\\qgis_global_settings.ini"
         value_type: path
 
   - name: Download plugins
